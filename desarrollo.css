@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ #lineaSuperior{
+     width: 100%;
+     height: 5px;
+     background: rgb(70, 70, 145);
+ }
+
+ 
+ #encabezado{
+     width: 100%;
+     height: 90px;
+     background: rgb(49, 49, 87);
+ }
+
+ #encabezado #centro1{
+     width: 800px;
+     height: auto; 
+     overflow: hidden;
+     border: 0px solid;
+     margin: auto;
+ }
+
+ #encabezado #centro1 #logo{
+     width: 200px;
+     border: none;
+     float: left;
+ }
+
+ #encabezado #centro1 #logo h1,p{
+     color: whitesmoke
+ }
+
+ #encabezado #centro1 #logo p{
+     margin-top: -20px;
+ }
+
+#menu{
+     width: 400px;
+     height: 50px;  
+     margin-top: 20px;
+     line-height: 10px;
+     float: right;
+ }
+
+#menu ul li{
+    float: left;
+    list-style: none;
+ }
+
+#menu ul li a{
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+ }
+
+ #encabezado #centro1 #menu ul li a:hover{
+     background: darkgray;
+ }
+
+
+ #presentacion{
+     width: 100%;
+     height: auto;
+     overflow: hidden;
+     background: rgb(70, 70, 145);
+ }
+
+ #presentacion #centro2{
+     width: 800px;
+     height: 80px;
+    margin: auto;
+ }
+
+ #presentacion #centro2 #izq{
+     width: 290px;
+     height: 125px;
+     border: 0px solid;
+     float: left;
+ }
+
+ #presentacion #centro2 #izq h2{
+    color: white;
+    font-weight: lighter;
+ }
+
+ .descripcion-presentacion{
+     color: whitesmoke;
+     text-align: left;
+ }
+
+ .boton{
+    padding:5px 20px;
+    border-radius:8px;
+    border: 0;
+ }
+
+ .img{
+     width: 470px;
+     height: 250px;
+     border: 0px solid #088a85;
+     margin: 20px 0px;
+     float: right;
+ }
+
+
+ #contenidos{
+     background: #f2f2f2;
+     width: 100%;
+     height: auto;
+     overflow: hidden;
+ }
+
+ #contenidos #centro3{
+     width: 800px;
+     margin: auto;
+     border: 0px solid;
+     height: auto;
+     overflow: hidden;
+ }
+ 
+ #contenidos #centro3 #izquierda{
+     width: 390px;
+     height: auto;
+     overflow: hidden;
+     border: 0px solid;
+     float: left;
+ }
+
+ #contenidos #centro3 #izquierda h3{
+     color: black;
+ }
+
+ #contenidos #centro3 #izquierda .descripcion{
+     text-align: left;
+     color: black;
+ }

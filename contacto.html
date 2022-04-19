@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hoteles - Electiva II</title>
+        <link rel="stylesheet" type="text/css" href="contacto.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5c129057f7.js" crossorigin="anonymous"></script>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+    </head>
+    <body>
+        <div id="lineaSuperior"></div>
+        <div id="encabezado">
+            <div id="centro1">
+                <div id="logo">
+                    <h1>Nombre de hoteles</h1>
+                    <p>Su mejor opcion en vacaiones</p>
+                </div>
+                <div id="menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="producto.html">Productos</a></li>
+                        <li><a href="pago.html">Pago</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="contenido">
+            <h1 class="logo">Contactanos <span>!!</span></h1>
+
+            <div id="contenedor_principal">
+                <form action="https://formspree.io/f/xknkwvba" method="POST">
+                    <div class="formularioContacto">
+                        <p>
+                            <label>Nombre Completo</label>
+                            <input type="text" name=nombre id="name">
+                        </p>
+                        <p>
+                            <label>Correo Electronico</label>
+                            <input type="email" name="correo" id="email">
+                        </p>
+                        <p>
+                            <label>Telefono</label>
+                            <input type="tel" name="telefono" id="phone">
+                        </p>
+                        <p>
+                            <label>Descripción</label>
+                            <input type="text" name="descripcion" id="description">
+                        </p>
+                        <p>
+                            <label>Mensaje</label>
+                            <textarea name="mensaje" rows="3" id="message"></textarea>
+                        </p>
+                        <p>
+                            <button type="submit" id="enviar">
+                                Enviar
+                            </button>
+                        </p>
+                    </div>
+                </form>
+                <div class="formularioInfo">
+                    <h2>Nuestros Contactos</h2>
+
+                    <ul>
+                        <li><i class="fas fa-map-marked-alt">  Heredia, Costa Rica</i></li>
+                        <li><i class="fas fa-phone-volume">  1111 1111</i></li>
+                        <li><i class="fas fa-at">  ############</i></li>
+
+                            <p>Planes Vacacionales a un click</p>
+
+                            <p>ProyectoHTML-CSS.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</html>
